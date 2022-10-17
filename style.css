@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+aside {
+   
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:999;
+    display:flex;
+}
+#menu-opener {
+
+    width:40px;
+    height:40px;
+    cursor:pointer;
+    margin-top:10px;
+    margin-right:10px;
+}
+#menu-area {
+   border-radius: 10px;
+    width:200px;
+    height:100vh;
+    background: linear-gradient(135deg, #354381 0%, #764ba2 100%);
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition: all 0.5s ease;
+    
+    
+}
+#menu-area ul, #menu-area li {
+    list-style:none;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#menu-area li {
+    padding:10px 0;
+    text-align:center;  
+    display:block;
+    padding: 20px 100px;
+    border-bottom-style: ridge;
+    color:rgb(246, 246, 246);
+    cursor:pointer;
+}
+#menu-area li:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color:rgb(246, 246, 246);
+}
+#menu-area li a {
+    text-decoration:none;
+    color:rgb(246, 246, 246);
+}
+#menu-area li a:hover {
+    color:rgb(246, 246, 246);
+}   
+#menu-area li {
+    border-bottom:none;
+}
